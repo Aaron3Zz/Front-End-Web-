@@ -1,0 +1,199 @@
+// Chapter #6
+
+// // #1
+// // TODO: create the character object here
+// const aurora = {
+//   name: "Aurora",
+//   health: 150,
+//   strength: 25,
+//   xp:10,
+
+//   describe() {
+//   return `${this.name} has ${this.health} health points, ${this.strength} as strength and ${this.xp} xp points`;
+//   }
+// };
+// // Aurora is harmed by an arrow
+// aurora.health -= 20;
+
+// // Aurora equips a strength necklace
+// aurora.strength += 10;
+
+// // Aurora learn a new skill
+// aurora.xp += 15;
+
+// console.log(aurora.describe());
+
+
+// //#2
+// // TODO: create the dog object here
+// const dog={
+//   name: "Fang",
+//   species: "boarhound",
+//   size: 75,
+
+//   bark(){
+//   return 'Brr! Brr!';
+//   }
+// }
+
+// console.log(`${dog.name} is a ${dog.species} dog measuring ${dog.size}`);
+// console.log(`Look, a cat! ${dog.name} barks: ${dog.bark()}`);
+
+
+// //#3
+// const r = Number(prompt("Enter the circle radius:"));
+// // TODO: create the circle object here
+// const circle={
+//   circumference(){
+//     return 2 * Math.PI * r;
+//   },
+//   area(){
+//     return r * Math.PI * r;
+//   }
+// };
+
+// console.log(`Its circumference is ${circle.circumference()}`);
+// console.log(`Its area is ${circle.area()}`);
+
+
+// //#4
+// const money={
+//   cred: 250,
+//   debt: 80,
+// }
+
+// const account = {
+//   name: "Alex",
+//   balance: 0,
+
+//   credit(){
+//      return `Crediting: ${money.cred}, Debting ${money.debt}`;
+//   },
+  
+//   amount(){
+//     return account.balance + money.cred - money.debt;
+//   },
+ 
+//   describe() {
+//   return `Owner: ${account.name}, balance ${account.amount()}`;
+//   },
+// }
+
+// console.log(account.describe());
+// console.log(account.credit());
+
+
+
+
+//Chapter #7
+
+// //#1
+// const musketeers = ["Athos", "Porthos", "Aramis"];
+// for (let i = 0; i < musketeers.length; i++) {
+//   console.log(musketeers[i]);
+// };
+
+// musketeers.push("D'Artganan");
+// musketeers.forEach(myElement => {
+//   console.log(myElement);
+// });
+
+// musketeers.splice(2, 1);
+// for (const myElement of musketeers) {
+//   console.log(myElement);
+// }
+
+
+// //#2
+// let sum = 0;
+// const values = [3, 11, 7, 2, 9, 10];
+
+// for (let i = 0; i < values.length; i++){
+//   sum += values[i];
+// }
+// console.log(sum);
+
+
+// //#3
+// const values = [3, 11, 7, 2, 9, 10];
+// console.log(Math.max(...values));
+
+
+// //#4
+// const words = [];
+// let input;
+// while (true) {
+//   input = prompt("Enter a word (or 'stop')");
+//   if (input === "stop") {
+//     break; 
+//   }
+//   words.push(input); 
+// }
+// console.log("You just typed:");
+
+// words.forEach(myElement => {
+//   console.log(myElement);
+// });
+
+
+
+
+//Chatper #8
+
+// //#1
+// const words = prompt("Enter a word!");
+
+// console.log("There are",words.length,"letters in your word!");
+
+
+// //#2
+// const words = prompt("Say a Word!");
+// const vowel = [];
+
+// for (let i = 0; i < words.length; i++) {
+//   if ((words[i] === "a") || (words[i] === "e") || (words[i] === "i") || (words[i] === "o") || (words[i] === "u")){
+    
+//     vowel.push(words[i]);
+//   }
+// }
+// console.log("There are",vowel.length,"vowels in the word!");
+
+
+// //#3
+// //solution #1
+// const words = prompt("Say a Word!");
+// const vowel = [];
+
+// for (let i = 0; i < words.length; i++) {
+//     vowel.push(words[i]);
+// }
+// vowel.reverse();
+// let rev = vowel.join("");
+// console.log("Reverse Magic! ",rev);
+
+// //solution #2
+// let reverse = "";
+// const word = prompt("Say a Word!");
+// for (let i = word.length-1; i >= 0; i--) {
+//     reverse += word[i];
+// }
+// console.log("reverse:",reverse); 
+
+
+// //#4
+// const words = prompt("Say a Word!");
+// const vowel = [];
+
+// for (let i = 0; i < words.length; i++) {
+//     vowel.push(words[i]);
+// }
+// vowel.reverse();
+// let rev = vowel.join("");
+// console.log("Reverse Magic! ",rev);
+
+// if ((vowel[1] == vowel[words.length - 2]) && (vowel[2] == vowel[words.length - 3])){
+//   console.log("This is a Palindrome !");
+// }else{
+//   console.log("This is not a Palindrome !");
+// }
+
