@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="myJS.js"></script>
+
+        <title>
+            Week #8
+        </title>
+
+        <style>
+
+            .p{
+                color:cornflowerblue;
+                font-size: 50px;
+                text-align: center;
+            }
+
+            .emote{
+                display:flex;
+                justify-content: center;
+                color:cornflowerblue;
+                font-size: 30px;
+            }
+
+            .one{
+                padding-bottom:2rem;
+                margin-right: 10rem;
+            }
+
+            .two{
+                margin-left: 10rem;
+                padding-bottom:7rem;
+            }
+
+            .b1{
+                text-align:center;
+                padding-bottom:3rem;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <p class= "p"> !O.O! </p>
+
+        <div class="emote" id="idOne">
+            <div class="one">O.o</div>
+            <div class="one">O.o</div>
+            <div class="one">O.o</div>
+            <div class="one">O.o</div>
+            <div class="one">O.o</div>
+        </div>
+
+        <div class="emote" id="idTwo">
+            <div class="two">o.O</div>
+            <div class="two">o.O</div>
+            <div class="two">o.O</div>
+            <div class="two">o.O</div>
+            <div class="two">o.O</div>
+        </div>
+
+        <div class="b1">
+            <button onclick="countEmote()">Click Me</button>
+            <button onclick="countIdOne()">Click Me</button>
+            <button onclick="countIdTwo()">Click Me</button>
+        </div>
+
+        <div id="emote-Count"></div>
+        <div id="idOne-Count"></div>
+        <div id="idTwo-Count"></div>
+
+    </body>
+
+
+</html>
