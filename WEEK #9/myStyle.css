@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-top:10rem;
+    background-color:rgb(255, 254, 252);
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header{
+    color:cornflowerblue;
+    font-size: 32px;
+}
+
+#laterstEmote{
+    color:cornflowerblue;
+    font-size: 16px;
+}
+
+#oo{
+    font-size:16px;
+}
+
+menu{
+    padding-top:3rem;
+}
+
+button{
+    color:cornflowerblue;
+    background-color:rgb(253, 248, 219);
+    padding: 16px 32px;
+    border:none;
+    margin:2rem;
+    border-radius:11px;
+    cursor:pointer;
+    opacity:0.6;
+}
+
+button:hover{
+    font-weight:bold;
+    opacity:1;
+}
+
+footer{
+    color:rgb(162, 172, 181);
+    font-size: 14px;
+    margin-top:1.5rem;
+}
+
