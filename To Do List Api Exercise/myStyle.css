@@ -1,0 +1,50 @@
+
+* {
+    box-sizing: border-box;
+    margin:0 auto;
+    padding: 0;
+}
+
+.body{
+    font-family: 'Jura', sans-serif;
+    background-color:#FFFEFC;
+    max-width: 1600px;
+}
+
+.sectionOne{
+    text-align:center;
+}
+
+.text{
+    font-weight:bold;
+    font-size:28px;
+    padding-bottom:4.18rem;
+    padding-top:10rem;
+    color:#7F888B;
+}
+
+#searchButton {
+    background-color: #ABBDC7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+
+#toDoList{
+    flex-direction: column;
+    list-style: none;
+}
+
+#refreshButton {
+    background-color: #7F888B;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+
+#assignData{
+    flex-direction: column;
+    list-style: none;
+}

@@ -1,0 +1,19 @@
+
+{
+    "User":[
+        {
+            "id": 1,
+            "name": "To-do List",
+            "email": "adcdefsdf@gamil.com",
+            "img":"https://i.ytimg.com/vi/2vFWkRHyB6o/maxresdefault.jpg",
+            "status": "Active"
+        },
+
+        {
+            "id": 1,
+            "name": "Not To-do List",
+            "email": "jfgejiwfsnj@gamil.com",
+            "status": "Not-Active"
+        }
+    ]
+}
